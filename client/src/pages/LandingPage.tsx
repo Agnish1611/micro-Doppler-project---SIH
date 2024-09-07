@@ -7,6 +7,7 @@ import Radar from '../assets/images/radar.png';
 import Shield from '../assets/images/shield.png';
 import Radar2 from '../assets/images/radar2.png';
 import Footer from '@/components/Footer';
+import { Link } from 'react-router-dom';
 
 const features = [
     {
@@ -54,7 +55,7 @@ function LandingPage() {
                 <div className='flex flex-col font-montserrat gap-10 absolute top-10 p-32 left-0'>
                     <div className='font-semibold text-[75px] leading-[65px] text-black'>Transforming<br />Airspace<br />Security</div>
                     <div className='max-w-[500px] text-md font-medium text-black'>Revolutionizing airspace security with precise drone and bird detection technology.</div>
-                    <Button className='w-fit px-10 py-5 text-sm'>GET STARTED</Button>
+                    <Link to='/dash'><Button className='w-fit px-10 py-5 text-sm'>GET STARTED</Button></Link>
                 </div>
             </section>
             <section className='h-screen w-screen p-10'>
@@ -106,7 +107,7 @@ function LandingPage() {
                 </div>
             </section>
             <section>
-                <Footer />
+                {/* <Footer /> */}
             </section>
         </div>
     )
