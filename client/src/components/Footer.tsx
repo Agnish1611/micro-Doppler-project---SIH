@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                     </div>
 
                     <div className="flex space-x-4 mb-4 md:mb-0">
-                        <a href="/home" className="hover:text-gray-400">Home</a>
+                        <a href="/" className="hover:text-gray-400">Home</a>
                         <a href="/about" className="hover:text-gray-400">About Us</a>
                         <a href="/solution" className="hover:text-gray-400">Solution</a>
                     </div>

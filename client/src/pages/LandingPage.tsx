@@ -8,6 +8,7 @@ import Shield from '../assets/images/shield.png';
 import Radar2 from '../assets/images/radar2.png';
 import Footer from '@/components/Footer';
 import { Link } from 'react-router-dom';
+import GoogleEarthMap from '@/components/GoogleEarthMap';
 
 const features = [
     {
@@ -50,7 +51,7 @@ function LandingPage() {
             <Navbar />
             <section>
                 <video autoPlay muted loop className='h-screen w-screen object-cover'>
-                    <source src={BgVideo} type="video/mp4" />
+                    <source src={BgVideo} type="videoso/mp4" />
                 </video>
                 <div className='flex flex-col font-montserrat gap-10 absolute top-10 p-32 left-0'>
                     <div className='font-semibold text-[75px] leading-[65px] text-black'>Transforming<br />Airspace<br />Security</div>
